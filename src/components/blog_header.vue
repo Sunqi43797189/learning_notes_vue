@@ -35,7 +35,6 @@ export default {
         line-height: 2em;
         font-size: 30px;
         font-family: sans-serif;
-        border: 1px solid red;
     }
     .site-name-home {
         text-decoration: none;
@@ -45,9 +44,5 @@ export default {
         height: 100%;
         width: 100%;
         text-align: right;
-        border: 1px solid black;
-    }
-    .site-name {
-        /*border: 1px solid red;*/
     }
 </style>

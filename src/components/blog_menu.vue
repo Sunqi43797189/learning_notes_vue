@@ -8,9 +8,20 @@
                         mode="horizontal"
                         text-color="black"
                         active-text-color="black">
-                    <el-menu-item index="1">处理中心</el-menu-item>
-                    <el-menu-item index="3">消息中心</el-menu-item>
-                    <el-menu-item index="4">订单管理</el-menu-item>
+                    <el-row type="flex" class="row-bg" >
+                        <el-col :span="2">
+                            <el-menu-item index="1"><i class="menu_title el-icon-house">首页</i></el-menu-item>
+                        </el-col>
+                        <el-col :span="2">
+                            <el-menu-item index="2"><i class="menu_title el-icon-collection">归档</i></el-menu-item>
+                        </el-col>
+                        <el-col :span="2">
+                            <el-menu-item index="3"><i class="menu_title el-icon-collection-tag">标签</i></el-menu-item>
+                        </el-col>
+                        <el-col :span="2">
+                            <el-menu-item index="4"><i class="menu_title el-icon-user">关于</i></el-menu-item>
+                        </el-col>
+                    </el-row>
                 </el-menu>
             </el-col>
         </el-row>
@@ -31,5 +42,11 @@
 <style>
     .blog_menu_div{
         margin-top: 20px;
+    }
+    .el-menu-item {
+        text-align: left;
+    }
+    .menu_title {
+        font-size: 14px;
     }
 </style>

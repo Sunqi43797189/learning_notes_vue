@@ -1,24 +1,26 @@
 <template>
   <div id="app">
-    <el-container>
-      <el-header>
-        <blog_header/>
-      </el-header>
-      <el-header>
-        <blog_menu/>
-      </el-header>
-      <el-container>
-        <el-main>
-          <blog_center/>
-        </el-main>
-        <el-aside>
-          <blog_aside/>
-        </el-aside>
-      </el-container>
-      <el-footer>
-        <blog_footer/>
-      </el-footer>
-    </el-container>
+      <el-row>
+        <el-col :span="24">
+          <el-header>
+            <blog_header/>
+          </el-header>
+        </el-col>
+        <el-col :span="24">
+          <el-header>
+            <blog_menu/>
+          </el-header>
+        </el-col>
+        <el-col :span="24">
+          <el-row type="flex">
+            <el-col :span="16" :offset="2"><blog_center/></el-col>
+            <el-col :span="4"><blog_aside/></el-col>
+          </el-row>
+        </el-col>
+        <el-col :span="24">
+          <blog_footer/>
+        </el-col>
+      </el-row>
   </div>
 </template>
 
@@ -62,8 +64,5 @@ export default {
     flex-direction: column;
     /*background: bisque;*/
     padding: 10px 0;
-  }
-  .el-container {
-    height: 100%;
   }
 </style>
