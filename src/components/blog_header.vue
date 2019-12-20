@@ -16,15 +16,15 @@
 </template>
 
 <script>
-export default {
-    name: 'blog_header',
-    data () {
-        return {
-            fit: 'contain',
-            url: require('../assets/picture/avatar.png')
+    export default {
+        name: 'blog_header',
+        data() {
+            return {
+                fit: 'contain',
+                url: require('../assets/picture/avatar.png')
+            }
         }
     }
-}
 </script>
 
 <style>
@@ -36,10 +36,12 @@ export default {
         font-size: 30px;
         font-family: sans-serif;
     }
+
     .site-name-home {
         text-decoration: none;
         color: black;
     }
+
     .header-avatar {
         height: 100%;
         width: 100%;
