@@ -62,7 +62,4 @@ export default {
   .el-container {
     height: 100%;
   }
-  .el-header {
-    border: 1px solid red;
-  }
 </style>

@@ -1,14 +1,14 @@
 <template>
     <div class="header-container">
-        <el-row>
-            <el-col :span="12">
+        <el-row type="flex" justify="space-around">
+            <el-col :span="8">
                 <div class="site-name">
                     <a class="site-name-home" href="./">Sunqi'S Blog</a>
                 </div>
             </el-col>
-            <el-col :span="10">
+            <el-col :span="8">
                 <div class="header-avatar">
-                    <el-avatar shape="circle" :size="50" :fit="fit" :src="url"/>
+                    <el-avatar shape="circle" :size="60" :fit="fit" :src="url"/>
                 </div>
             </el-col>
         </el-row>
@@ -45,6 +45,9 @@ export default {
         height: 100%;
         width: 100%;
         text-align: right;
-        margin: 1%
+        border: 1px solid black;
+    }
+    .site-name {
+        border: 1px solid red;
     }
 </style>
