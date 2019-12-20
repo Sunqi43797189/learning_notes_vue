@@ -1,12 +1,12 @@
 <template>
     <div class="header-container">
         <el-row type="flex" justify="space-around">
-            <el-col :span="8">
+            <el-col :span="9">
                 <div class="site-name">
                     <a class="site-name-home" href="./">Sunqi'S Blog</a>
                 </div>
             </el-col>
-            <el-col :span="8">
+            <el-col :span="9">
                 <div class="header-avatar">
                     <el-avatar shape="circle" :size="60" :fit="fit" :src="url"/>
                 </div>
@@ -35,7 +35,7 @@ export default {
         line-height: 2em;
         font-size: 30px;
         font-family: sans-serif;
-        /*border: 1px solid red;*/
+        border: 1px solid red;
     }
     .site-name-home {
         text-decoration: none;
@@ -48,6 +48,6 @@ export default {
         border: 1px solid black;
     }
     .site-name {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
 </style>

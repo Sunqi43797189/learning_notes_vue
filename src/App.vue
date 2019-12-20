@@ -4,6 +4,9 @@
       <el-header>
         <blog_header/>
       </el-header>
+      <el-header>
+        <blog_menu/>
+      </el-header>
       <el-container>
         <el-main>
           <blog_center/>
@@ -25,15 +28,16 @@ import blog_footer from "./components/blog_footer"
 import blog_header from "./components/blog_header"
 import blog_center from "./components/blog_center"
 import blog_aside from "./components/blog_aside";
+import blog_menu from "./components/blog_menu"
 
 export default {
   name: 'app',
   components: {
-    // home,
     blog_header,
     blog_footer,
     blog_center,
     blog_aside,
+    blog_menu,
   }
 }
 </script>
@@ -56,7 +60,7 @@ export default {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: bisque;
+    /*background: bisque;*/
     padding: 10px 0;
   }
   .el-container {
