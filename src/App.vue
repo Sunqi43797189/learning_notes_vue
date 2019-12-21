@@ -65,4 +65,12 @@ export default {
     /*background: bisque;*/
     padding: 10px 0;
   }
+  .ant-fullcalendar-header {
+    display: none;
+  }
+  .ant-fullcalendar-value {
+    width: 15px;
+    height: 15px;
+    line-height: 1;
+  }
 </style>

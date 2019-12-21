@@ -3,7 +3,7 @@
         <el-row type="flex" justify="space-around">
             <el-col :span="9">
                 <div class="site-name">
-                    <a class="site-name-home" href="./">Sunqi'S Blog</a>
+                    <a class="site-name-home" href="./">XXX'S Blog</a>
                 </div>
             </el-col>
             <el-col :span="9">
