@@ -14,7 +14,6 @@
             <el-card>
                 <el-col>
                     <span>{{date}}</span>
-                    <a-calendar :fullscreen="false" />
                 </el-col>
             </el-card>
             <el-card>
@@ -67,7 +66,12 @@
             var year = date.getFullYear();
             var month = date.getMonth() + 1;
             month = (month < 10 ? "0" + month : month);
-            this.date = year.toString()+"年"+month.toString()+"月";
+            var day = date.getDay();
+            var hour = date.getHours();
+            hour = (hour < 10 ? "0" + hour : hour);
+            var minute = date.getMinutes();
+            minute = (minute < 10 ? "0" + minute : minute);
+            this.date = year.toString()+"年"+month.toString()+"月"+day.toString()+"日"+hour.toString()+" : "+minute.toString();
         }
     }
 </script>
