@@ -54,7 +54,7 @@
             }
         },
         mounted() {
-            this.$http.get("http://127.0.0.1:8080/notes/").then((response) => {
+            this.$http.get(this.$server +"/notes/").then((response) => {
                 console.log(response.data.data);
                 this.articles = response.data.data;
                 this.total = response.data.data.length;

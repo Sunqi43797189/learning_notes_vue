@@ -34,7 +34,7 @@
 
         },
         mounted() {
-            this.$http.get("http://127.0.0.1:8080/tags/").then((response) => {
+            this.$http.get(this.$server + "/tags/").then((response) => {
                 console.log(response.data.data);
                 this.tags = response.data.data;
                 this.total = response.data.data.length;

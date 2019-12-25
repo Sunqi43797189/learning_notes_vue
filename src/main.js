@@ -12,6 +12,7 @@ Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.use(Antd);
 Vue.use(VueAxios, axios);
+Vue.prototype.$server = "http://111.229.3.18:8080";
 
 new Vue({
     router,
