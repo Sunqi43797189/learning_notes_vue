@@ -1239,9 +1239,9 @@ acorn-walk@^6.1.1:
   integrity sha1-Ejy487hMIXHx9/slJhWxx4prGow=
 
 acorn@^6.0.2, acorn@^6.0.7, acorn@^6.1.1, acorn@^6.2.1:
-  version "6.4.0"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-6.4.0.tgz#b659d2ffbafa24baf5db1cdbb2c94a983ecd2784"
-  integrity sha1-tlnS/7r6JLr12xzbsslKmD7NJ4Q=
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 add-dom-event-listener@^1.0.2:
   version "1.1.0"
@@ -2418,11 +2418,6 @@ core-js-compat@^3.4.3, core-js-compat@^3.6.0:
     browserslist "^4.8.2"
     semver "7.0.0"
 
-core-js@2.6.9:
-  version "2.6.9"
-  resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
-  integrity sha1-a0shRiDINBUuF5Mjcn/Bl0GwhPI=
-
 core-js@^2.4.0:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
@@ -2432,6 +2427,11 @@ core-js@^3.4.3:
   version "3.6.0"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.0.tgz#2b854e451de1967d1e29896025cdc13a2518d9ea"
   integrity sha1-K4VORR3hln0eKYlgJc3BOiUY2eo=
+
+core-js@^3.6.0:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
+  integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -8039,6 +8039,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-axios@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/vue-axios/-/vue-axios-2.1.5.tgz#1af4bf1218ed71309c76afb38d0f683e312c24a7"
+  integrity sha512-th5xVbInVoyIoe+qY+9GCflEVezxAvztD4xpFF39SRQYqpoKD2qkmX8yv08jJG9a2SgNOCjirjJGSwg/wTrbmA==
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
